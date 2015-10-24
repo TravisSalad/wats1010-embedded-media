@@ -1,10 +1,136 @@
-/******************************************************************************
- * WATS1010: Introduction to Web Development
- * Embedded Media Assignment
- *
- * Site Styles
- *****************************************************************************/
+* { 
+-mox-box-sizing: border-box;
+Box-sizing: border-box;
+Padding: 0;
+Margin: 0;
+line-height: 1.2em;
+font-family: "Poiret One", sans-serif;
+font-weight: bold;
+}
 
- html {
-     color: green;
- }
+/************
+GENERAL
+************/
+.wrapper {
+	width:77%;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	text-decoration: none;
+	color: orange;
+}
+a:hover{
+	color: #3D82AB;
+}
+ul {
+	list-style: none;
+}
+
+.nav-item {
+	display: inline-block;
+}
+.nav:hover{
+	color:#F1F1F1;	
+}
+
+
+/************
+HEADER
+************/
+
+.header-text{
+	background: #3D82AB;
+	color: #F1F1F1;
+	height:70px;
+}
+.top-nav .nav-bar {
+	right: 139px;
+	border-top: 1px solid #F1F1F1;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+/************
+SIDEBAR
+************/
+
+.social {
+	top:1%;
+	right:11%;
+	position:fixed;
+	border-radius:3px;
+	padding-left:3px;
+	padding-right:5px;
+	padding-top:3px;
+}
+.logo {
+	width:20px;
+	height:20px;
+}
+
+/************
+MAIN CONTENT
+************/
+
+.main-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #F1F1F1;
+}
+.main-content p{
+	margin-top:20px;
+}
+.about .lead{
+	font-size:18px;
+	color:#ff69b4;
+}
+.listen{
+	padding-top:20px;
+}
+.about{
+	padding-top:20px;
+}
+.headshot{
+	width:70%;
+	padding-top:20px;
+}
+.weybec-people li{
+	float:left;
+	width:33%;
+	text-align:center;
+}
+.main-content, h2{
+	margin-bottom:20px;
+}
+
+/************
+FOOTER
+************/
+
+.footer {
+	background: #3D82AB; 
+	color: #F1F1F1;
+	font-size: small;
+	text-align: center;
+}
+.bottom-nav {
+	border-top:1px solid #F1F1F1;
+}
+
+/************
+DOWNLOAD BUTTON
+************/
+
+.download-button{
+	color:#3D82AB;
+	border: 1px solid #3D82AB;
+	border-radius: 10px;
+	padding-left:7px;
+	padding-right:7px;
+}
+.download-button:hover{
+	background:#3D82AB;
+	color:orange;
+}
+
+
