@@ -82,8 +82,10 @@ MAIN CONTENT
 }
 .about .lead{
 	font-size:18px;
-	color:#ff69b4;
+ 	color:#ff69b4;
+	text-shadow: 1px 1px 1px gray;
 }
+
 .listen{
 	padding-top:20px;
 }
@@ -92,16 +94,30 @@ MAIN CONTENT
 }
 .headshot{
 	width:70%;
-	padding-top:20px;
+	box-shadow: 5px 5px 5px gray;
+
 }
 .weybec-people li{
 	float:left;
 	width:33%;
 	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+
 }
 .main-content, h2{
 	margin-bottom:20px;
 }
+.download-icon{
+	margin-top:10px;
+	width:20px;
+	height:20px;
+}
+.download-icon:hover{
+	background:#3D82AB;
+	border-radius:20px;
+}
+
 
 /************
 FOOTER
